@@ -549,6 +549,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4677125770544720788, guid: ce2d7a24ee71f4bc885df3d9d19d58a9,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3cfb6c05ddf6a47b0b6a4ade6c717e7a, type: 2}
+    - target: {fileID: 4677125770548958528, guid: ce2d7a24ee71f4bc885df3d9d19d58a9,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677125770548958546, guid: ce2d7a24ee71f4bc885df3d9d19d58a9,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677125770548958556, guid: ce2d7a24ee71f4bc885df3d9d19d58a9,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4677125770554000690, guid: ce2d7a24ee71f4bc885df3d9d19d58a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -644,7 +664,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1933460271
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -653,7 +673,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1933460270}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
